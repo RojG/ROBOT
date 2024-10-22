@@ -8,26 +8,31 @@ from launch.launch_description_sources import PythonLaunchDescriptionSource
 from launch.substitutions import LaunchConfiguration
 from launch_ros.actions import Node
 
-TURTLEBOT3_MODEL = os.environ['TURTLEBOT3_MODEL']
-
 
 def generate_launch_description():
+
     use_sim_time = LaunchConfiguration('use_sim_time', default='false')
+
+    # Setup of this project: robot_navigation
+    # pkg name: the name of this dir
+    # map dir : path to the map 
+    pkg_name = 'robot_navigation'
     map_dir = LaunchConfiguration(
         'map',
         default=os.path.join(
-            get_package_share_directory('turtlebot3_navigation2'),
+            get_package_share_directory(pkg_name),
             'map',
             'map.yaml'))
 
-    param_file_name = TURTLEBOT3_MODEL + '.yaml'
+    param_file_name = 'robot' + '.yaml'
     param_dir = LaunchConfiguration(
         'params_file',
         default=os.path.join(
-            get_package_share_directory('turtlebot3_navigation2'),
+            get_package_share_directory(pkg_name),
             'param',
             param_file_name))
 
+    # Setup of navigation2 plugin
     nav2_launch_file_dir = os.path.join(get_package_share_directory('nav2_bringup'), 'launch')
 
     rviz_config_dir = os.path.join(
