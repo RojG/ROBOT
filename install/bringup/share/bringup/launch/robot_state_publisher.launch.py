@@ -31,12 +31,20 @@ def generate_launch_description():
             description='Use simulation (Gazebo) clock if true'
     )
 
+    robot_state_publisher_node = Node(
+        package='robot_state_publisher',
+        executable='robot_state_publisher',
+        parameters=[{'robot_description': Command(['xacro ', model])}]
+    )
+    joint_state_publisher_node = Node(
+        package='joint_state_publisher',
+        executable='joint_state_publisher',
+        name='joint_state_publisher'
+    )
+
     return LaunchDescription([
         model_launch_arg,
         use_sim_time_arg,
-        Node(
-            package='robot_state_publisher',
-            executable='robot_state_publisher',
-            output='screen',
-            parameters=[{'robot_description': Command(['xacro ', model])}])
+        robot_state_publisher_node,
+        joint_state_publisher_node
     ])
