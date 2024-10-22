@@ -98,9 +98,9 @@ Visualization Manager:
           Value: true
         odom:
           Value: true
-        wheel_left_link:
+        drivewhl_l_link:
           Value: true
-        wheel_right_link:
+        drivewhl_r_link:
           Value: true
       Marker Scale: 1
       Name: TF
@@ -127,9 +127,9 @@ Visualization Manager:
                   {}
                 imu_link:
                   {}
-                x_reflect_link:
+                drivewhl_l_link:
                   {}
-                y_reflect_link:
+                drivewhl_r_link:
                   {}
       Update Interval: 0
       Value: true
