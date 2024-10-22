@@ -37,6 +37,9 @@
 
     <!-- Wheels -->
   <xacro:macro name="wheel" params="prefix x_reflect y_reflect">
+    <xacro:wheel prefix="drivewhl_l" x_reflect="-1" y_reflect="1" />
+    <xacro:wheel prefix="drivewhl_r" x_reflect="-1" y_reflect="-1" />
+
     <link name="${prefix}_link">
       <visual>
         <origin xyz="0 0 0" rpy="${pi/2} 0 0"/>
@@ -57,8 +60,7 @@
     </joint>
   </xacro:macro>
 
-  <xacro:wheel prefix="drivewhl_l" x_reflect="-1" y_reflect="1" />
-  <xacro:wheel prefix="drivewhl_r" x_reflect="-1" y_reflect="-1" />
+
 
     <!-- Caster Wheel -->
   <link name="front_caster">
