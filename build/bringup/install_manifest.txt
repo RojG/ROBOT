@@ -1,5 +1,6 @@
 /home/r/ros2_ws/install/bringup/share/bringup/launch/rviz.launch.py
 /home/r/ros2_ws/install/bringup/share/bringup/launch/robot_state_publisher.launch.py
+/home/r/ros2_ws/install/bringup/share/bringup/launch/robot_localization.launch.py
 /home/r/ros2_ws/install/bringup/share/bringup/launch/robot.launch.py
 /home/r/ros2_ws/install/bringup/share/ament_index/resource_index/package_run_dependencies/bringup
 /home/r/ros2_ws/install/bringup/share/ament_index/resource_index/parent_prefix_path/bringup
