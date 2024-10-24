@@ -1,1 +1,1 @@
-joint_state_publisher:robot_description:robot_state_publisher:rviz2:sllidar_ros2:xacro
+joint_state_publisher:robot_description:robot_localization:robot_state_publisher:rviz2:sllidar_ros2:xacro
