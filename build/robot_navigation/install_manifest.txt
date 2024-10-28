@@ -2,6 +2,7 @@
 /home/r/ros2_ws/install/robot_navigation/share/robot_navigation/launch/.vscode/settings.json
 /home/r/ros2_ws/install/robot_navigation/share/robot_navigation/launch/.vscode/c_cpp_properties.json
 /home/r/ros2_ws/install/robot_navigation/share/robot_navigation/map/map.yaml
+/home/r/ros2_ws/install/robot_navigation/share/robot_navigation/map/map5.pgm
 /home/r/ros2_ws/install/robot_navigation/share/robot_navigation/map/map.pgm
 /home/r/ros2_ws/install/robot_navigation/share/robot_navigation/param/robot.yaml
 /home/r/ros2_ws/install/robot_navigation/share/robot_navigation/rviz/nav2.rviz
