@@ -1,6 +1,17 @@
 <?xml version="1.0"?>
 <robot name="robot" xmlns:xacro="http://ros.org/wiki/xacro">
 
+  <!-- base_link -->
+  <!-- base_footprint-->
+  <!-- drivewhl_l_link-->
+  <!-- drivewhl_r_link-->
+  <!-- front_caster -->
+  <!-- imu_link -->
+  <!-- lidar_link -->
+  <!-- camera_link -->
+  <!-- camera_depth_frame -->
+
+
       <!-- Define robot constants -->
   <xacro:property name="base_width" value="0.31"/>
   <xacro:property name="base_length" value="0.42"/>
