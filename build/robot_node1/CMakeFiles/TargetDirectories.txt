@@ -1,0 +1,10 @@
+/home/r/ros2_ws/build/robot_node1/CMakeFiles/uninstall.dir
+/home/r/ros2_ws/build/robot_node1/CMakeFiles/robot_node1_uninstall.dir
+/home/r/ros2_ws/build/robot_node1/CMakeFiles/imu_node.dir
+/home/r/ros2_ws/build/robot_node1/CMakeFiles/test.dir
+/home/r/ros2_ws/build/robot_node1/CMakeFiles/edit_cache.dir
+/home/r/ros2_ws/build/robot_node1/CMakeFiles/rebuild_cache.dir
+/home/r/ros2_ws/build/robot_node1/CMakeFiles/list_install_components.dir
+/home/r/ros2_ws/build/robot_node1/CMakeFiles/install.dir
+/home/r/ros2_ws/build/robot_node1/CMakeFiles/install/local.dir
+/home/r/ros2_ws/build/robot_node1/CMakeFiles/install/strip.dir

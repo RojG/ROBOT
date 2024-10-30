@@ -1,0 +1,27 @@
+[0.045s] Invoking command in '/home/r/ros2_ws/build/robot_node1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/r/ros2_ws/build/robot_node1 -- -j2 -l2
+[0.312s] [35m[1mConsolidate compiler generated dependencies of target imu_node[0m
+[0.413s] [ 33%] [32mBuilding CXX object CMakeFiles/imu_node.dir/src/imu_node.cpp.o[0m
+[0.456s] [ 66%] [32mBuilding CXX object CMakeFiles/imu_node.dir/src/mpu6500.cpp.o[0m
+[7.441s] [100%] [32m[1mLinking CXX executable imu_node[0m
+[7.777s] [100%] Built target imu_node
+[7.796s] Invoked command in '/home/r/ros2_ws/build/robot_node1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/r/ros2_ws/build/robot_node1 -- -j2 -l2
+[7.859s] Invoking command in '/home/r/ros2_ws/build/robot_node1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/r/ros2_ws/build/robot_node1
+[7.872s] -- Install configuration: ""
+[7.875s] -- Installing: /home/r/ros2_ws/install/robot_node1/lib/robot_node1/imu_node
+[7.878s] -- Set runtime path of "/home/r/ros2_ws/install/robot_node1/lib/robot_node1/imu_node" to ""
+[7.879s] -- Installing: /home/r/ros2_ws/install/robot_node1/share/ament_index/resource_index/package_run_dependencies/robot_node1
+[7.879s] -- Installing: /home/r/ros2_ws/install/robot_node1/share/ament_index/resource_index/parent_prefix_path/robot_node1
+[7.881s] -- Installing: /home/r/ros2_ws/install/robot_node1/share/robot_node1/environment/ament_prefix_path.sh
+[7.882s] -- Installing: /home/r/ros2_ws/install/robot_node1/share/robot_node1/environment/ament_prefix_path.dsv
+[7.882s] -- Installing: /home/r/ros2_ws/install/robot_node1/share/robot_node1/environment/path.sh
+[7.883s] -- Installing: /home/r/ros2_ws/install/robot_node1/share/robot_node1/environment/path.dsv
+[7.883s] -- Installing: /home/r/ros2_ws/install/robot_node1/share/robot_node1/local_setup.bash
+[7.884s] -- Installing: /home/r/ros2_ws/install/robot_node1/share/robot_node1/local_setup.sh
+[7.885s] -- Installing: /home/r/ros2_ws/install/robot_node1/share/robot_node1/local_setup.zsh
+[7.886s] -- Installing: /home/r/ros2_ws/install/robot_node1/share/robot_node1/local_setup.dsv
+[7.887s] -- Installing: /home/r/ros2_ws/install/robot_node1/share/robot_node1/package.dsv
+[7.888s] -- Installing: /home/r/ros2_ws/install/robot_node1/share/ament_index/resource_index/packages/robot_node1
+[7.888s] -- Installing: /home/r/ros2_ws/install/robot_node1/share/robot_node1/cmake/robot_node1Config.cmake
+[7.888s] -- Installing: /home/r/ros2_ws/install/robot_node1/share/robot_node1/cmake/robot_node1Config-version.cmake
+[7.889s] -- Installing: /home/r/ros2_ws/install/robot_node1/share/robot_node1/package.xml
+[7.892s] Invoked command in '/home/r/ros2_ws/build/robot_node1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/r/ros2_ws/build/robot_node1
