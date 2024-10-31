@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/r/ros2_ws/src/robot_node1
+CMAKE_SOURCE_DIR = /home/hi/ros2_ws/src/robot_node1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/r/ros2_ws/build/robot_node1
+CMAKE_BINARY_DIR = /home/hi/ros2_ws/build/robot_node1
 
 # Utility rule file for robot_node1_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/robot_node1_uninstall.dir/compiler_depend.make
 include CMakeFiles/robot_node1_uninstall.dir/progress.make
 
 CMakeFiles/robot_node1_uninstall:
-	/usr/bin/cmake -P /home/r/ros2_ws/build/robot_node1/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/hi/ros2_ws/build/robot_node1/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 robot_node1_uninstall: CMakeFiles/robot_node1_uninstall
 robot_node1_uninstall: CMakeFiles/robot_node1_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/robot_node1_uninstall.dir/clean:
 .PHONY : CMakeFiles/robot_node1_uninstall.dir/clean
 
 CMakeFiles/robot_node1_uninstall.dir/depend:
-	cd /home/r/ros2_ws/build/robot_node1 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/r/ros2_ws/src/robot_node1 /home/r/ros2_ws/src/robot_node1 /home/r/ros2_ws/build/robot_node1 /home/r/ros2_ws/build/robot_node1 /home/r/ros2_ws/build/robot_node1/CMakeFiles/robot_node1_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/hi/ros2_ws/build/robot_node1 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hi/ros2_ws/src/robot_node1 /home/hi/ros2_ws/src/robot_node1 /home/hi/ros2_ws/build/robot_node1 /home/hi/ros2_ws/build/robot_node1 /home/hi/ros2_ws/build/robot_node1/CMakeFiles/robot_node1_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/robot_node1_uninstall.dir/depend
 

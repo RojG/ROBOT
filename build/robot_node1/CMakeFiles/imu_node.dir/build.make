@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/r/ros2_ws/src/robot_node1
+CMAKE_SOURCE_DIR = /home/hi/ros2_ws/src/robot_node1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/r/ros2_ws/build/robot_node1
+CMAKE_BINARY_DIR = /home/hi/ros2_ws/build/robot_node1
 
 # Include any dependencies generated for this target.
 include CMakeFiles/imu_node.dir/depend.make
@@ -70,32 +70,32 @@ include CMakeFiles/imu_node.dir/progress.make
 include CMakeFiles/imu_node.dir/flags.make
 
 CMakeFiles/imu_node.dir/src/imu_node.cpp.o: CMakeFiles/imu_node.dir/flags.make
-CMakeFiles/imu_node.dir/src/imu_node.cpp.o: /home/r/ros2_ws/src/robot_node1/src/imu_node.cpp
+CMakeFiles/imu_node.dir/src/imu_node.cpp.o: /home/hi/ros2_ws/src/robot_node1/src/imu_node.cpp
 CMakeFiles/imu_node.dir/src/imu_node.cpp.o: CMakeFiles/imu_node.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/r/ros2_ws/build/robot_node1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/imu_node.dir/src/imu_node.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/imu_node.dir/src/imu_node.cpp.o -MF CMakeFiles/imu_node.dir/src/imu_node.cpp.o.d -o CMakeFiles/imu_node.dir/src/imu_node.cpp.o -c /home/r/ros2_ws/src/robot_node1/src/imu_node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hi/ros2_ws/build/robot_node1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/imu_node.dir/src/imu_node.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/imu_node.dir/src/imu_node.cpp.o -MF CMakeFiles/imu_node.dir/src/imu_node.cpp.o.d -o CMakeFiles/imu_node.dir/src/imu_node.cpp.o -c /home/hi/ros2_ws/src/robot_node1/src/imu_node.cpp
 
 CMakeFiles/imu_node.dir/src/imu_node.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/imu_node.dir/src/imu_node.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/r/ros2_ws/src/robot_node1/src/imu_node.cpp > CMakeFiles/imu_node.dir/src/imu_node.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hi/ros2_ws/src/robot_node1/src/imu_node.cpp > CMakeFiles/imu_node.dir/src/imu_node.cpp.i
 
 CMakeFiles/imu_node.dir/src/imu_node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/imu_node.dir/src/imu_node.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/r/ros2_ws/src/robot_node1/src/imu_node.cpp -o CMakeFiles/imu_node.dir/src/imu_node.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hi/ros2_ws/src/robot_node1/src/imu_node.cpp -o CMakeFiles/imu_node.dir/src/imu_node.cpp.s
 
 CMakeFiles/imu_node.dir/src/mpu6500.cpp.o: CMakeFiles/imu_node.dir/flags.make
-CMakeFiles/imu_node.dir/src/mpu6500.cpp.o: /home/r/ros2_ws/src/robot_node1/src/mpu6500.cpp
+CMakeFiles/imu_node.dir/src/mpu6500.cpp.o: /home/hi/ros2_ws/src/robot_node1/src/mpu6500.cpp
 CMakeFiles/imu_node.dir/src/mpu6500.cpp.o: CMakeFiles/imu_node.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/r/ros2_ws/build/robot_node1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/imu_node.dir/src/mpu6500.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/imu_node.dir/src/mpu6500.cpp.o -MF CMakeFiles/imu_node.dir/src/mpu6500.cpp.o.d -o CMakeFiles/imu_node.dir/src/mpu6500.cpp.o -c /home/r/ros2_ws/src/robot_node1/src/mpu6500.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hi/ros2_ws/build/robot_node1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/imu_node.dir/src/mpu6500.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/imu_node.dir/src/mpu6500.cpp.o -MF CMakeFiles/imu_node.dir/src/mpu6500.cpp.o.d -o CMakeFiles/imu_node.dir/src/mpu6500.cpp.o -c /home/hi/ros2_ws/src/robot_node1/src/mpu6500.cpp
 
 CMakeFiles/imu_node.dir/src/mpu6500.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/imu_node.dir/src/mpu6500.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/r/ros2_ws/src/robot_node1/src/mpu6500.cpp > CMakeFiles/imu_node.dir/src/mpu6500.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hi/ros2_ws/src/robot_node1/src/mpu6500.cpp > CMakeFiles/imu_node.dir/src/mpu6500.cpp.i
 
 CMakeFiles/imu_node.dir/src/mpu6500.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/imu_node.dir/src/mpu6500.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/r/ros2_ws/src/robot_node1/src/mpu6500.cpp -o CMakeFiles/imu_node.dir/src/mpu6500.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hi/ros2_ws/src/robot_node1/src/mpu6500.cpp -o CMakeFiles/imu_node.dir/src/mpu6500.cpp.s
 
 # Object files for target imu_node
 imu_node_OBJECTS = \
@@ -176,7 +176,7 @@ imu_node: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_c.so
 imu_node: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_c.so
 imu_node: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_c.so
 imu_node: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_c.so
-imu_node: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+imu_node: /usr/lib/aarch64-linux-gnu/libpython3.10.so
 imu_node: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_cpp.so
 imu_node: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
 imu_node: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_cpp.so
@@ -187,7 +187,7 @@ imu_node: /opt/ros/humble/lib/librcpputils.so
 imu_node: /opt/ros/humble/lib/librosidl_runtime_c.so
 imu_node: /opt/ros/humble/lib/librcutils.so
 imu_node: CMakeFiles/imu_node.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/r/ros2_ws/build/robot_node1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable imu_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hi/ros2_ws/build/robot_node1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable imu_node"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/imu_node.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -199,6 +199,6 @@ CMakeFiles/imu_node.dir/clean:
 .PHONY : CMakeFiles/imu_node.dir/clean
 
 CMakeFiles/imu_node.dir/depend:
-	cd /home/r/ros2_ws/build/robot_node1 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/r/ros2_ws/src/robot_node1 /home/r/ros2_ws/src/robot_node1 /home/r/ros2_ws/build/robot_node1 /home/r/ros2_ws/build/robot_node1 /home/r/ros2_ws/build/robot_node1/CMakeFiles/imu_node.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/hi/ros2_ws/build/robot_node1 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hi/ros2_ws/src/robot_node1 /home/hi/ros2_ws/src/robot_node1 /home/hi/ros2_ws/build/robot_node1 /home/hi/ros2_ws/build/robot_node1 /home/hi/ros2_ws/build/robot_node1/CMakeFiles/imu_node.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/imu_node.dir/depend
 

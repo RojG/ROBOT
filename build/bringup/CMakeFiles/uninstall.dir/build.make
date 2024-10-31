@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/r/ros2_ws/src/bringup
+CMAKE_SOURCE_DIR = /home/hi/ros2_ws/src/bringup
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/r/ros2_ws/build/bringup
+CMAKE_BINARY_DIR = /home/hi/ros2_ws/build/bringup
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/r/ros2_ws/build/bringup && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/r/ros2_ws/src/bringup /home/r/ros2_ws/src/bringup /home/r/ros2_ws/build/bringup /home/r/ros2_ws/build/bringup /home/r/ros2_ws/build/bringup/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/hi/ros2_ws/build/bringup && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hi/ros2_ws/src/bringup /home/hi/ros2_ws/src/bringup /home/hi/ros2_ws/build/bringup /home/hi/ros2_ws/build/bringup /home/hi/ros2_ws/build/bringup/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

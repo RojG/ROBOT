@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/r/ros2_ws/src/robot_navigation
+CMAKE_SOURCE_DIR = /home/hi/ros2_ws/src/robot_navigation
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/r/ros2_ws/build/robot_navigation
+CMAKE_BINARY_DIR = /home/hi/ros2_ws/build/robot_navigation
 
 # Utility rule file for robot_navigation_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/robot_navigation_uninstall.dir/compiler_depend.make
 include CMakeFiles/robot_navigation_uninstall.dir/progress.make
 
 CMakeFiles/robot_navigation_uninstall:
-	/usr/bin/cmake -P /home/r/ros2_ws/build/robot_navigation/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/hi/ros2_ws/build/robot_navigation/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 robot_navigation_uninstall: CMakeFiles/robot_navigation_uninstall
 robot_navigation_uninstall: CMakeFiles/robot_navigation_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/robot_navigation_uninstall.dir/clean:
 .PHONY : CMakeFiles/robot_navigation_uninstall.dir/clean
 
 CMakeFiles/robot_navigation_uninstall.dir/depend:
-	cd /home/r/ros2_ws/build/robot_navigation && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/r/ros2_ws/src/robot_navigation /home/r/ros2_ws/src/robot_navigation /home/r/ros2_ws/build/robot_navigation /home/r/ros2_ws/build/robot_navigation /home/r/ros2_ws/build/robot_navigation/CMakeFiles/robot_navigation_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/hi/ros2_ws/build/robot_navigation && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hi/ros2_ws/src/robot_navigation /home/hi/ros2_ws/src/robot_navigation /home/hi/ros2_ws/build/robot_navigation /home/hi/ros2_ws/build/robot_navigation /home/hi/ros2_ws/build/robot_navigation/CMakeFiles/robot_navigation_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/robot_navigation_uninstall.dir/depend
 

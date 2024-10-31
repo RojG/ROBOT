@@ -1,8 +1,8 @@
-# Install script for directory: /home/r/ros2_ws/src/robot_navigation
+# Install script for directory: /home/hi/ros2_ws/src/robot_navigation
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/r/ros2_ws/install/robot_navigation")
+  set(CMAKE_INSTALL_PREFIX "/home/hi/ros2_ws/install/robot_navigation")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,19 +44,19 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_navigation" TYPE DIRECTORY FILES
-    "/home/r/ros2_ws/src/robot_navigation/launch"
-    "/home/r/ros2_ws/src/robot_navigation/map"
-    "/home/r/ros2_ws/src/robot_navigation/param"
-    "/home/r/ros2_ws/src/robot_navigation/rviz"
+    "/home/hi/ros2_ws/src/robot_navigation/launch"
+    "/home/hi/ros2_ws/src/robot_navigation/map"
+    "/home/hi/ros2_ws/src/robot_navigation/param"
+    "/home/hi/ros2_ws/src/robot_navigation/rviz"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/r/ros2_ws/build/robot_navigation/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/robot_navigation")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/hi/ros2_ws/build/robot_navigation/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/robot_navigation")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/r/ros2_ws/build/robot_navigation/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/robot_navigation")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/hi/ros2_ws/build/robot_navigation/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/robot_navigation")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -64,7 +64,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_navigation/environment" TYPE FILE FILES "/home/r/ros2_ws/build/robot_navigation/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_navigation/environment" TYPE FILE FILES "/home/hi/ros2_ws/build/robot_navigation/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -72,42 +72,42 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_navigation/environment" TYPE FILE FILES "/home/r/ros2_ws/build/robot_navigation/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_navigation/environment" TYPE FILE FILES "/home/hi/ros2_ws/build/robot_navigation/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_navigation" TYPE FILE FILES "/home/r/ros2_ws/build/robot_navigation/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_navigation" TYPE FILE FILES "/home/hi/ros2_ws/build/robot_navigation/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_navigation" TYPE FILE FILES "/home/r/ros2_ws/build/robot_navigation/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_navigation" TYPE FILE FILES "/home/hi/ros2_ws/build/robot_navigation/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_navigation" TYPE FILE FILES "/home/r/ros2_ws/build/robot_navigation/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_navigation" TYPE FILE FILES "/home/hi/ros2_ws/build/robot_navigation/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_navigation" TYPE FILE FILES "/home/r/ros2_ws/build/robot_navigation/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_navigation" TYPE FILE FILES "/home/hi/ros2_ws/build/robot_navigation/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_navigation" TYPE FILE FILES "/home/r/ros2_ws/build/robot_navigation/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_navigation" TYPE FILE FILES "/home/hi/ros2_ws/build/robot_navigation/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/r/ros2_ws/build/robot_navigation/ament_cmake_index/share/ament_index/resource_index/packages/robot_navigation")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/hi/ros2_ws/build/robot_navigation/ament_cmake_index/share/ament_index/resource_index/packages/robot_navigation")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_navigation/cmake" TYPE FILE FILES
-    "/home/r/ros2_ws/build/robot_navigation/ament_cmake_core/robot_navigationConfig.cmake"
-    "/home/r/ros2_ws/build/robot_navigation/ament_cmake_core/robot_navigationConfig-version.cmake"
+    "/home/hi/ros2_ws/build/robot_navigation/ament_cmake_core/robot_navigationConfig.cmake"
+    "/home/hi/ros2_ws/build/robot_navigation/ament_cmake_core/robot_navigationConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_navigation" TYPE FILE FILES "/home/r/ros2_ws/src/robot_navigation/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_navigation" TYPE FILE FILES "/home/hi/ros2_ws/src/robot_navigation/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -118,5 +118,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/r/ros2_ws/build/robot_navigation/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/hi/ros2_ws/build/robot_navigation/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
