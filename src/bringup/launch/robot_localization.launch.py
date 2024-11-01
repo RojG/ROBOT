@@ -21,6 +21,13 @@ def generate_launch_description():
         description='Flag to disable use_sim_time'
     )
 
+    imu_node = Node(
+        package='robot_node1',
+        executable='imu_node',
+        name='mpu6500_node'
+
+    )
+
     # Start robot localization using an Extended Kalman filter
     robot_localization_node = Node(
         package='robot_localization',
@@ -34,6 +41,7 @@ def generate_launch_description():
     )
     
     return LaunchDescription([
+        imu_node,
         use_sim_time_arg,
         robot_localization_node
     ])
