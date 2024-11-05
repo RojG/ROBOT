@@ -1,0 +1,24 @@
+[0.268s] Invoking command in '/home/hi/ros2_ws/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hi/ros2_ws/build/robot_description -- -j4 -l4
+[0.948s] Invoked command in '/home/hi/ros2_ws/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hi/ros2_ws/build/robot_description -- -j4 -l4
+[1.426s] Invoking command in '/home/hi/ros2_ws/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hi/ros2_ws/build/robot_description
+[1.712s] -- Install configuration: ""
+[1.714s] -- Up-to-date: /home/hi/ros2_ws/install/robot_description/share/robot_description/rviz
+[1.716s] -- Up-to-date: /home/hi/ros2_ws/install/robot_description/share/robot_description/rviz/show_robot.rviz
+[1.718s] -- Up-to-date: /home/hi/ros2_ws/install/robot_description/share/robot_description/urdf
+[1.720s] -- Up-to-date: /home/hi/ros2_ws/install/robot_description/share/robot_description/urdf/robot.urdf
+[1.721s] -- Up-to-date: /home/hi/ros2_ws/install/robot_description/share/ament_index/resource_index/package_run_dependencies/robot_description
+[1.722s] -- Up-to-date: /home/hi/ros2_ws/install/robot_description/share/ament_index/resource_index/parent_prefix_path/robot_description
+[1.723s] -- Up-to-date: /home/hi/ros2_ws/install/robot_description/share/robot_description/environment/ament_prefix_path.sh
+[1.724s] -- Up-to-date: /home/hi/ros2_ws/install/robot_description/share/robot_description/environment/ament_prefix_path.dsv
+[1.733s] -- Up-to-date: /home/hi/ros2_ws/install/robot_description/share/robot_description/environment/path.sh
+[1.735s] -- Up-to-date: /home/hi/ros2_ws/install/robot_description/share/robot_description/environment/path.dsv
+[1.736s] -- Up-to-date: /home/hi/ros2_ws/install/robot_description/share/robot_description/local_setup.bash
+[1.737s] -- Up-to-date: /home/hi/ros2_ws/install/robot_description/share/robot_description/local_setup.sh
+[1.738s] -- Up-to-date: /home/hi/ros2_ws/install/robot_description/share/robot_description/local_setup.zsh
+[1.744s] -- Up-to-date: /home/hi/ros2_ws/install/robot_description/share/robot_description/local_setup.dsv
+[1.745s] -- Installing: /home/hi/ros2_ws/install/robot_description/share/robot_description/package.dsv
+[1.746s] -- Up-to-date: /home/hi/ros2_ws/install/robot_description/share/ament_index/resource_index/packages/robot_description
+[1.747s] -- Up-to-date: /home/hi/ros2_ws/install/robot_description/share/robot_description/cmake/robot_descriptionConfig.cmake
+[1.748s] -- Up-to-date: /home/hi/ros2_ws/install/robot_description/share/robot_description/cmake/robot_descriptionConfig-version.cmake
+[1.749s] -- Up-to-date: /home/hi/ros2_ws/install/robot_description/share/robot_description/package.xml
+[1.891s] Invoked command in '/home/hi/ros2_ws/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hi/ros2_ws/build/robot_description

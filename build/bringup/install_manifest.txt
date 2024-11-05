@@ -2,6 +2,7 @@
 /home/hi/ros2_ws/install/bringup/share/bringup/launch/robot_localization.launch.py
 /home/hi/ros2_ws/install/bringup/share/bringup/launch/rviz.launch.py
 /home/hi/ros2_ws/install/bringup/share/bringup/launch/robot_state_publisher.launch.py
+/home/hi/ros2_ws/install/bringup/share/bringup/param/ekf.yaml
 /home/hi/ros2_ws/install/bringup/share/ament_index/resource_index/package_run_dependencies/bringup
 /home/hi/ros2_ws/install/bringup/share/ament_index/resource_index/parent_prefix_path/bringup
 /home/hi/ros2_ws/install/bringup/share/bringup/environment/ament_prefix_path.sh

@@ -1,0 +1,33 @@
+[0.253s] Invoking command in '/home/hi/ros2_ws/build/robot_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hi/ros2_ws/build/robot_navigation -- -j4 -l4
+[0.851s] Invoked command in '/home/hi/ros2_ws/build/robot_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hi/ros2_ws/build/robot_navigation -- -j4 -l4
+[1.368s] Invoking command in '/home/hi/ros2_ws/build/robot_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hi/ros2_ws/build/robot_navigation
+[1.471s] -- Install configuration: ""
+[1.473s] -- Up-to-date: /home/hi/ros2_ws/install/robot_navigation/share/robot_navigation/launch
+[1.481s] -- Up-to-date: /home/hi/ros2_ws/install/robot_navigation/share/robot_navigation/launch/.vscode
+[1.484s] -- Up-to-date: /home/hi/ros2_ws/install/robot_navigation/share/robot_navigation/launch/.vscode/settings.json
+[1.485s] -- Up-to-date: /home/hi/ros2_ws/install/robot_navigation/share/robot_navigation/launch/.vscode/c_cpp_properties.json
+[1.491s] -- Up-to-date: /home/hi/ros2_ws/install/robot_navigation/share/robot_navigation/launch/nav2.launch.py
+[1.504s] -- Up-to-date: /home/hi/ros2_ws/install/robot_navigation/share/robot_navigation/map
+[1.506s] -- Up-to-date: /home/hi/ros2_ws/install/robot_navigation/share/robot_navigation/map/map.yaml
+[1.508s] -- Up-to-date: /home/hi/ros2_ws/install/robot_navigation/share/robot_navigation/map/map5.pgm
+[1.512s] -- Up-to-date: /home/hi/ros2_ws/install/robot_navigation/share/robot_navigation/map/map.pgm
+[1.517s] -- Up-to-date: /home/hi/ros2_ws/install/robot_navigation/share/robot_navigation/param
+[1.519s] -- Up-to-date: /home/hi/ros2_ws/install/robot_navigation/share/robot_navigation/param/robot.yaml
+[1.528s] -- Up-to-date: /home/hi/ros2_ws/install/robot_navigation/share/robot_navigation/rviz
+[1.530s] -- Up-to-date: /home/hi/ros2_ws/install/robot_navigation/share/robot_navigation/rviz/nav2.rviz
+[1.534s] -- Up-to-date: /home/hi/ros2_ws/install/robot_navigation/share/ament_index/resource_index/package_run_dependencies/robot_navigation
+[1.540s] -- Up-to-date: /home/hi/ros2_ws/install/robot_navigation/share/ament_index/resource_index/parent_prefix_path/robot_navigation
+[1.542s] -- Up-to-date: /home/hi/ros2_ws/install/robot_navigation/share/robot_navigation/environment/ament_prefix_path.sh
+[1.595s] -- Up-to-date: /home/hi/ros2_ws/install/robot_navigation/share/robot_navigation/environment/ament_prefix_path.dsv
+[1.598s] -- Up-to-date: /home/hi/ros2_ws/install/robot_navigation/share/robot_navigation/environment/path.sh
+[1.613s] -- Up-to-date: /home/hi/ros2_ws/install/robot_navigation/share/robot_navigation/environment/path.dsv
+[1.616s] -- Up-to-date: /home/hi/ros2_ws/install/robot_navigation/share/robot_navigation/local_setup.bash
+[1.618s] -- Up-to-date: /home/hi/ros2_ws/install/robot_navigation/share/robot_navigation/local_setup.sh
+[1.620s] -- Up-to-date: /home/hi/ros2_ws/install/robot_navigation/share/robot_navigation/local_setup.zsh
+[1.621s] -- Up-to-date: /home/hi/ros2_ws/install/robot_navigation/share/robot_navigation/local_setup.dsv
+[1.630s] -- Installing: /home/hi/ros2_ws/install/robot_navigation/share/robot_navigation/package.dsv
+[1.631s] -- Up-to-date: /home/hi/ros2_ws/install/robot_navigation/share/ament_index/resource_index/packages/robot_navigation
+[1.633s] -- Up-to-date: /home/hi/ros2_ws/install/robot_navigation/share/robot_navigation/cmake/robot_navigationConfig.cmake
+[1.636s] -- Up-to-date: /home/hi/ros2_ws/install/robot_navigation/share/robot_navigation/cmake/robot_navigationConfig-version.cmake
+[1.638s] -- Up-to-date: /home/hi/ros2_ws/install/robot_navigation/share/robot_navigation/package.xml
+[1.640s] Invoked command in '/home/hi/ros2_ws/build/robot_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hi/ros2_ws/build/robot_navigation

@@ -17,7 +17,7 @@ public:
         }
         imu_publisher_ = this->create_publisher<sensor_msgs::msg::Imu>("imu", 10);
         timer_ = this->create_wall_timer(
-            std::chrono::milliseconds(20),
+            std::chrono::milliseconds(40),
             std::bind(&ImuNode::publish_imu_data, this)
         );
     }
@@ -48,6 +48,14 @@ private:
             msg.angular_velocity.x = gyro_x;
             msg.angular_velocity.y = gyro_y;
             msg.angular_velocity.z = gyro_z;
+
+            msg.linear_acceleration_covariance[0] = 0.02;
+            msg.linear_acceleration_covariance[4] = 0.02;
+            msg.linear_acceleration_covariance[8] = 0.02;
+
+            msg.angular_velocity_covariance[0] = 0.01;
+            msg.angular_velocity_covariance[4] = 0.01;
+            msg.angular_velocity_covariance[8] = 0.01;
 
             imu_publisher_->publish(msg);
 

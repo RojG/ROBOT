@@ -64,6 +64,12 @@ def generate_launch_description():
         ),
 
         IncludeLaunchDescription(
+            PythonLaunchDescriptionSource(
+                [ThisLaunchFileDir(), '/robot_localization.launch.py']),
+            launch_arguments={'use_sim_time': use_sim_time}.items(),
+        ),
+
+        IncludeLaunchDescription(
             PythonLaunchDescriptionSource([sllidar_pkg_dir, LDS_LAUNCH_FILE]),
             launch_arguments={
                 'port': usb_port_Laptop, 

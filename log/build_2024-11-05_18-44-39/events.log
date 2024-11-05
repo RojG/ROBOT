@@ -1,0 +1,436 @@
+[0.000000] (-) TimerEvent: {}
+[0.001836] (robot_description) JobQueued: {'identifier': 'robot_description', 'dependencies': OrderedDict()}
+[0.002459] (robot_navigation) JobQueued: {'identifier': 'robot_navigation', 'dependencies': OrderedDict()}
+[0.002762] (robot_node1) JobQueued: {'identifier': 'robot_node1', 'dependencies': OrderedDict()}
+[0.002903] (bringup) JobQueued: {'identifier': 'bringup', 'dependencies': OrderedDict([('robot_description', '/home/hi/ros2_ws/install/robot_description')])}
+[0.003048] (robot_description) JobStarted: {'identifier': 'robot_description'}
+[0.091224] (robot_navigation) JobStarted: {'identifier': 'robot_navigation'}
+[0.092834] (-) TimerEvent: {}
+[0.161892] (robot_node1) JobStarted: {'identifier': 'robot_node1'}
+[0.194145] (-) TimerEvent: {}
+[0.248844] (robot_description) JobProgress: {'identifier': 'robot_description', 'progress': 'cmake'}
+[0.259456] (robot_description) JobProgress: {'identifier': 'robot_description', 'progress': 'build'}
+[0.265778] (robot_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hi/ros2_ws/build/robot_description', '--', '-j4', '-l4'], 'cwd': '/home/hi/ros2_ws/build/robot_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'hi'), ('LC_TIME', 'lzh_TW'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/hi/robot_localization/install/robot_localization/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hi'), ('OLDPWD', '/home/hi/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'lzh_TW'), ('MANAGERPID', '1444'), ('SYSTEMD_EXEC_PID', '1915'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2268'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/hi/ros2_ws/install:/home/hi/robot_localization/install:/home/hi/work_s/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hi'), ('JOURNAL_STREAM', '8:27456'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rpi4:@/tmp/.ICE-unix/1592,unix/rpi4:/tmp/.ICE-unix/1592'), ('INVOCATION_ID', '04fa6cbfaac04963a9b6acf88c6afeeb'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'lzh_TW'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'lzh_TW'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.N7TUW2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/hi/ros2_ws/install/robot_node1:/home/hi/ros2_ws/install/robot_navigation:/home/hi/ros2_ws/install/bringup:/home/hi/ros2_ws/install/robot_description:/home/hi/robot_localization/install/robot_localization:/home/hi/work_s/install/sllidar_ros2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'lzh_TW'), ('TERMINATOR_UUID', 'urn:uuid:a5d2eb06-8c45-4221-a055-5f8df9d1d555'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'lzh_TW'), ('LC_IDENTIFICATION', 'lzh_TW'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hi/ros2_ws/build/robot_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/hi/robot_localization/install/robot_localization/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'lzh_TW'), ('LC_PAPER', 'lzh_TW'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/hi/ros2_ws/install/robot_node1:/home/hi/ros2_ws/install/robot_navigation:/home/hi/ros2_ws/install/bringup:/home/hi/ros2_ws/install/robot_description:/home/hi/robot_localization/install/robot_localization:/home/hi/work_s/install/sllidar_ros2:/opt/ros/humble')]), 'shell': False}
+[0.294586] (-) TimerEvent: {}
+[0.303975] (robot_navigation) JobProgress: {'identifier': 'robot_navigation', 'progress': 'cmake'}
+[0.316399] (robot_navigation) JobProgress: {'identifier': 'robot_navigation', 'progress': 'build'}
+[0.325412] (robot_navigation) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hi/ros2_ws/build/robot_navigation', '--', '-j4', '-l4'], 'cwd': '/home/hi/ros2_ws/build/robot_navigation', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'hi'), ('LC_TIME', 'lzh_TW'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/hi/robot_localization/install/robot_localization/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hi'), ('OLDPWD', '/home/hi/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'lzh_TW'), ('MANAGERPID', '1444'), ('SYSTEMD_EXEC_PID', '1915'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2268'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/hi/ros2_ws/install:/home/hi/robot_localization/install:/home/hi/work_s/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hi'), ('JOURNAL_STREAM', '8:27456'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rpi4:@/tmp/.ICE-unix/1592,unix/rpi4:/tmp/.ICE-unix/1592'), ('INVOCATION_ID', '04fa6cbfaac04963a9b6acf88c6afeeb'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'lzh_TW'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'lzh_TW'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.N7TUW2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/hi/ros2_ws/install/robot_node1:/home/hi/ros2_ws/install/robot_navigation:/home/hi/ros2_ws/install/bringup:/home/hi/ros2_ws/install/robot_description:/home/hi/robot_localization/install/robot_localization:/home/hi/work_s/install/sllidar_ros2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'lzh_TW'), ('TERMINATOR_UUID', 'urn:uuid:a5d2eb06-8c45-4221-a055-5f8df9d1d555'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'lzh_TW'), ('LC_IDENTIFICATION', 'lzh_TW'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hi/ros2_ws/build/robot_navigation'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/hi/robot_localization/install/robot_localization/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'lzh_TW'), ('LC_PAPER', 'lzh_TW'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/hi/ros2_ws/install/robot_node1:/home/hi/ros2_ws/install/robot_navigation:/home/hi/ros2_ws/install/bringup:/home/hi/ros2_ws/install/robot_description:/home/hi/robot_localization/install/robot_localization:/home/hi/work_s/install/sllidar_ros2:/opt/ros/humble')]), 'shell': False}
+[0.408819] (-) TimerEvent: {}
+[0.429650] (robot_node1) JobProgress: {'identifier': 'robot_node1', 'progress': 'cmake'}
+[0.446454] (robot_node1) JobProgress: {'identifier': 'robot_node1', 'progress': 'build'}
+[0.449905] (robot_node1) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hi/ros2_ws/build/robot_node1', '--', '-j4', '-l4'], 'cwd': '/home/hi/ros2_ws/build/robot_node1', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'hi'), ('LC_TIME', 'lzh_TW'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/hi/robot_localization/install/robot_localization/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hi'), ('OLDPWD', '/home/hi/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'lzh_TW'), ('MANAGERPID', '1444'), ('SYSTEMD_EXEC_PID', '1915'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2268'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/hi/ros2_ws/install:/home/hi/robot_localization/install:/home/hi/work_s/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hi'), ('JOURNAL_STREAM', '8:27456'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rpi4:@/tmp/.ICE-unix/1592,unix/rpi4:/tmp/.ICE-unix/1592'), ('INVOCATION_ID', '04fa6cbfaac04963a9b6acf88c6afeeb'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'lzh_TW'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'lzh_TW'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.N7TUW2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/hi/ros2_ws/install/robot_node1:/home/hi/ros2_ws/install/robot_navigation:/home/hi/ros2_ws/install/bringup:/home/hi/ros2_ws/install/robot_description:/home/hi/robot_localization/install/robot_localization:/home/hi/work_s/install/sllidar_ros2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'lzh_TW'), ('TERMINATOR_UUID', 'urn:uuid:a5d2eb06-8c45-4221-a055-5f8df9d1d555'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'lzh_TW'), ('LC_IDENTIFICATION', 'lzh_TW'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hi/ros2_ws/build/robot_node1'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/hi/robot_localization/install/robot_localization/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'lzh_TW'), ('LC_PAPER', 'lzh_TW'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/hi/ros2_ws/install/robot_node1:/home/hi/ros2_ws/install/robot_navigation:/home/hi/ros2_ws/install/bringup:/home/hi/ros2_ws/install/robot_description:/home/hi/robot_localization/install/robot_localization:/home/hi/work_s/install/sllidar_ros2:/opt/ros/humble')]), 'shell': False}
+[0.510371] (-) TimerEvent: {}
+[0.614577] (-) TimerEvent: {}
+[0.725885] (-) TimerEvent: {}
+[0.828099] (-) TimerEvent: {}
+[0.897207] (robot_navigation) CommandEnded: {'returncode': 0}
+[0.933459] (-) TimerEvent: {}
+[0.944510] (robot_description) CommandEnded: {'returncode': 0}
+[1.040396] (-) TimerEvent: {}
+[1.112721] (robot_node1) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target imu_node\x1b[0m\n'}
+[1.141143] (-) TimerEvent: {}
+[1.248417] (-) TimerEvent: {}
+[1.260646] (robot_navigation) JobProgress: {'identifier': 'robot_navigation', 'progress': 'install'}
+[1.350989] (-) TimerEvent: {}
+[1.378551] (robot_navigation) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/hi/ros2_ws/build/robot_navigation'], 'cwd': '/home/hi/ros2_ws/build/robot_navigation', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'hi'), ('LC_TIME', 'lzh_TW'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/hi/robot_localization/install/robot_localization/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hi'), ('OLDPWD', '/home/hi/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'lzh_TW'), ('MANAGERPID', '1444'), ('SYSTEMD_EXEC_PID', '1915'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2268'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/hi/ros2_ws/install:/home/hi/robot_localization/install:/home/hi/work_s/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hi'), ('JOURNAL_STREAM', '8:27456'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rpi4:@/tmp/.ICE-unix/1592,unix/rpi4:/tmp/.ICE-unix/1592'), ('INVOCATION_ID', '04fa6cbfaac04963a9b6acf88c6afeeb'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'lzh_TW'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'lzh_TW'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.N7TUW2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/hi/ros2_ws/install/robot_node1:/home/hi/ros2_ws/install/robot_navigation:/home/hi/ros2_ws/install/bringup:/home/hi/ros2_ws/install/robot_description:/home/hi/robot_localization/install/robot_localization:/home/hi/work_s/install/sllidar_ros2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'lzh_TW'), ('TERMINATOR_UUID', 'urn:uuid:a5d2eb06-8c45-4221-a055-5f8df9d1d555'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'lzh_TW'), ('LC_IDENTIFICATION', 'lzh_TW'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hi/ros2_ws/build/robot_navigation'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/hi/robot_localization/install/robot_localization/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'lzh_TW'), ('LC_PAPER', 'lzh_TW'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/hi/ros2_ws/install/robot_node1:/home/hi/ros2_ws/install/robot_navigation:/home/hi/ros2_ws/install/bringup:/home/hi/ros2_ws/install/robot_description:/home/hi/robot_localization/install/robot_localization:/home/hi/work_s/install/sllidar_ros2:/opt/ros/humble')]), 'shell': False}
+[1.404212] (robot_node1) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/imu_node.dir/src/imu_node.cpp.o\x1b[0m\n'}
+[1.422476] (robot_description) JobProgress: {'identifier': 'robot_description', 'progress': 'install'}
+[1.426114] (robot_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/hi/ros2_ws/build/robot_description'], 'cwd': '/home/hi/ros2_ws/build/robot_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'hi'), ('LC_TIME', 'lzh_TW'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/hi/robot_localization/install/robot_localization/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hi'), ('OLDPWD', '/home/hi/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'lzh_TW'), ('MANAGERPID', '1444'), ('SYSTEMD_EXEC_PID', '1915'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2268'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/hi/ros2_ws/install:/home/hi/robot_localization/install:/home/hi/work_s/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hi'), ('JOURNAL_STREAM', '8:27456'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rpi4:@/tmp/.ICE-unix/1592,unix/rpi4:/tmp/.ICE-unix/1592'), ('INVOCATION_ID', '04fa6cbfaac04963a9b6acf88c6afeeb'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'lzh_TW'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'lzh_TW'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.N7TUW2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/hi/ros2_ws/install/robot_node1:/home/hi/ros2_ws/install/robot_navigation:/home/hi/ros2_ws/install/bringup:/home/hi/ros2_ws/install/robot_description:/home/hi/robot_localization/install/robot_localization:/home/hi/work_s/install/sllidar_ros2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'lzh_TW'), ('TERMINATOR_UUID', 'urn:uuid:a5d2eb06-8c45-4221-a055-5f8df9d1d555'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'lzh_TW'), ('LC_IDENTIFICATION', 'lzh_TW'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hi/ros2_ws/build/robot_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/hi/robot_localization/install/robot_localization/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'lzh_TW'), ('LC_PAPER', 'lzh_TW'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/hi/ros2_ws/install/robot_node1:/home/hi/ros2_ws/install/robot_navigation:/home/hi/ros2_ws/install/bringup:/home/hi/ros2_ws/install/robot_description:/home/hi/robot_localization/install/robot_localization:/home/hi/work_s/install/sllidar_ros2:/opt/ros/humble')]), 'shell': False}
+[1.452849] (-) TimerEvent: {}
+[1.555018] (-) TimerEvent: {}
+[1.565318] (robot_navigation) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.567973] (robot_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/hi/ros2_ws/install/robot_navigation/share/robot_navigation/launch\n'}
+[1.569596] (robot_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/hi/ros2_ws/install/robot_navigation/share/robot_navigation/launch/.vscode\n'}
+[1.571013] (robot_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/hi/ros2_ws/install/robot_navigation/share/robot_navigation/launch/.vscode/settings.json\n'}
+[1.579002] (robot_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/hi/ros2_ws/install/robot_navigation/share/robot_navigation/launch/.vscode/c_cpp_properties.json\n'}
+[1.597170] (robot_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/hi/ros2_ws/install/robot_navigation/share/robot_navigation/launch/nav2.launch.py\n'}
+[1.598219] (robot_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/hi/ros2_ws/install/robot_navigation/share/robot_navigation/map\n'}
+[1.599200] (robot_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/hi/ros2_ws/install/robot_navigation/share/robot_navigation/map/map.yaml\n'}
+[1.600246] (robot_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/hi/ros2_ws/install/robot_navigation/share/robot_navigation/map/map5.pgm\n'}
+[1.608436] (robot_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/hi/ros2_ws/install/robot_navigation/share/robot_navigation/map/map.pgm\n'}
+[1.637627] (robot_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/hi/ros2_ws/install/robot_navigation/share/robot_navigation/param\n'}
+[1.639308] (robot_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/hi/ros2_ws/install/robot_navigation/share/robot_navigation/param/robot.yaml\n'}
+[1.655591] (-) TimerEvent: {}
+[1.662601] (robot_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/hi/ros2_ws/install/robot_navigation/share/robot_navigation/rviz\n'}
+[1.665265] (robot_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/hi/ros2_ws/install/robot_navigation/share/robot_navigation/rviz/nav2.rviz\n'}
+[1.667017] (robot_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/hi/ros2_ws/install/robot_navigation/share/ament_index/resource_index/package_run_dependencies/robot_navigation\n'}
+[1.673928] (robot_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/hi/ros2_ws/install/robot_navigation/share/ament_index/resource_index/parent_prefix_path/robot_navigation\n'}
+[1.674910] (robot_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/hi/ros2_ws/install/robot_navigation/share/robot_navigation/environment/ament_prefix_path.sh\n'}
+[1.677798] (robot_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/hi/ros2_ws/install/robot_navigation/share/robot_navigation/environment/ament_prefix_path.dsv\n'}
+[1.681402] (robot_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/hi/ros2_ws/install/robot_navigation/share/robot_navigation/environment/path.sh\n'}
+[1.692398] (robot_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/hi/ros2_ws/install/robot_navigation/share/robot_navigation/environment/path.dsv\n'}
+[1.693919] (robot_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/hi/ros2_ws/install/robot_navigation/share/robot_navigation/local_setup.bash\n'}
+[1.695066] (robot_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/hi/ros2_ws/install/robot_navigation/share/robot_navigation/local_setup.sh\n'}
+[1.695844] (robot_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/hi/ros2_ws/install/robot_navigation/share/robot_navigation/local_setup.zsh\n'}
+[1.696853] (robot_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/hi/ros2_ws/install/robot_navigation/share/robot_navigation/local_setup.dsv\n'}
+[1.697926] (robot_navigation) StdoutLine: {'line': b'-- Installing: /home/hi/ros2_ws/install/robot_navigation/share/robot_navigation/package.dsv\n'}
+[1.698986] (robot_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/hi/ros2_ws/install/robot_navigation/share/ament_index/resource_index/packages/robot_navigation\n'}
+[1.699944] (robot_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/hi/ros2_ws/install/robot_navigation/share/robot_navigation/cmake/robot_navigationConfig.cmake\n'}
+[1.701011] (robot_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/hi/ros2_ws/install/robot_navigation/share/robot_navigation/cmake/robot_navigationConfig-version.cmake\n'}
+[1.702080] (robot_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/hi/ros2_ws/install/robot_navigation/share/robot_navigation/package.xml\n'}
+[1.709233] (robot_navigation) CommandEnded: {'returncode': 0}
+[1.712200] (robot_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.715530] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/hi/ros2_ws/install/robot_description/share/robot_description/rviz\n'}
+[1.717427] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/hi/ros2_ws/install/robot_description/share/robot_description/rviz/show_robot.rviz\n'}
+[1.719510] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/hi/ros2_ws/install/robot_description/share/robot_description/urdf\n'}
+[1.721771] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/hi/ros2_ws/install/robot_description/share/robot_description/urdf/robot.urdf\n'}
+[1.723227] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/hi/ros2_ws/install/robot_description/share/ament_index/resource_index/package_run_dependencies/robot_description\n'}
+[1.724213] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/hi/ros2_ws/install/robot_description/share/ament_index/resource_index/parent_prefix_path/robot_description\n'}
+[1.725192] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/hi/ros2_ws/install/robot_description/share/robot_description/environment/ament_prefix_path.sh\n'}
+[1.726063] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/hi/ros2_ws/install/robot_description/share/robot_description/environment/ament_prefix_path.dsv\n'}
+[1.734405] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/hi/ros2_ws/install/robot_description/share/robot_description/environment/path.sh\n'}
+[1.736586] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/hi/ros2_ws/install/robot_description/share/robot_description/environment/path.dsv\n'}
+[1.738238] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/hi/ros2_ws/install/robot_description/share/robot_description/local_setup.bash\n'}
+[1.739636] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/hi/ros2_ws/install/robot_description/share/robot_description/local_setup.sh\n'}
+[1.740828] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/hi/ros2_ws/install/robot_description/share/robot_description/local_setup.zsh\n'}
+[1.746115] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/hi/ros2_ws/install/robot_description/share/robot_description/local_setup.dsv\n'}
+[1.747335] (robot_description) StdoutLine: {'line': b'-- Installing: /home/hi/ros2_ws/install/robot_description/share/robot_description/package.dsv\n'}
+[1.748469] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/hi/ros2_ws/install/robot_description/share/ament_index/resource_index/packages/robot_description\n'}
+[1.749332] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/hi/ros2_ws/install/robot_description/share/robot_description/cmake/robot_descriptionConfig.cmake\n'}
+[1.750158] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/hi/ros2_ws/install/robot_description/share/robot_description/cmake/robot_descriptionConfig-version.cmake\n'}
+[1.751289] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/hi/ros2_ws/install/robot_description/share/robot_description/package.xml\n'}
+[1.758837] (-) TimerEvent: {}
+[1.868765] (-) TimerEvent: {}
+[1.893041] (robot_description) CommandEnded: {'returncode': 0}
+[1.973173] (-) TimerEvent: {}
+[2.078634] (-) TimerEvent: {}
+[2.180417] (-) TimerEvent: {}
+[2.284571] (-) TimerEvent: {}
+[2.357336] (robot_navigation) JobEnded: {'identifier': 'robot_navigation', 'rc': 0}
+[2.385166] (-) TimerEvent: {}
+[2.486458] (robot_description) JobEnded: {'identifier': 'robot_description', 'rc': 0}
+[2.499655] (-) TimerEvent: {}
+[2.501009] (bringup) JobStarted: {'identifier': 'bringup'}
+[2.600368] (-) TimerEvent: {}
+[2.619558] (bringup) JobProgress: {'identifier': 'bringup', 'progress': 'cmake'}
+[2.647599] (bringup) JobProgress: {'identifier': 'bringup', 'progress': 'build'}
+[2.648143] (bringup) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hi/ros2_ws/build/bringup', '--', '-j4', '-l4'], 'cwd': '/home/hi/ros2_ws/build/bringup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'hi'), ('LC_TIME', 'lzh_TW'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/hi/robot_localization/install/robot_localization/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hi'), ('OLDPWD', '/home/hi/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'lzh_TW'), ('MANAGERPID', '1444'), ('SYSTEMD_EXEC_PID', '1915'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2268'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/hi/ros2_ws/install:/home/hi/robot_localization/install:/home/hi/work_s/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hi'), ('JOURNAL_STREAM', '8:27456'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rpi4:@/tmp/.ICE-unix/1592,unix/rpi4:/tmp/.ICE-unix/1592'), ('INVOCATION_ID', '04fa6cbfaac04963a9b6acf88c6afeeb'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'lzh_TW'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'lzh_TW'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.N7TUW2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/hi/ros2_ws/install/robot_node1:/home/hi/ros2_ws/install/robot_navigation:/home/hi/ros2_ws/install/bringup:/home/hi/ros2_ws/install/robot_description:/home/hi/robot_localization/install/robot_localization:/home/hi/work_s/install/sllidar_ros2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'lzh_TW'), ('TERMINATOR_UUID', 'urn:uuid:a5d2eb06-8c45-4221-a055-5f8df9d1d555'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'lzh_TW'), ('LC_IDENTIFICATION', 'lzh_TW'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hi/ros2_ws/build/bringup'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/hi/robot_localization/install/robot_localization/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'lzh_TW'), ('LC_PAPER', 'lzh_TW'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/hi/ros2_ws/install/robot_description:/home/hi/ros2_ws/install/robot_node1:/home/hi/ros2_ws/install/robot_navigation:/home/hi/ros2_ws/install/bringup:/home/hi/robot_localization/install/robot_localization:/home/hi/work_s/install/sllidar_ros2:/opt/ros/humble')]), 'shell': False}
+[2.702033] (-) TimerEvent: {}
+[2.806483] (-) TimerEvent: {}
+[2.908613] (-) TimerEvent: {}
+[3.010435] (-) TimerEvent: {}
+[3.069028] (bringup) CommandEnded: {'returncode': 0}
+[3.110882] (-) TimerEvent: {}
+[3.213584] (-) TimerEvent: {}
+[3.315958] (-) TimerEvent: {}
+[3.335570] (bringup) JobProgress: {'identifier': 'bringup', 'progress': 'install'}
+[3.340234] (bringup) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/hi/ros2_ws/build/bringup'], 'cwd': '/home/hi/ros2_ws/build/bringup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'hi'), ('LC_TIME', 'lzh_TW'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/hi/robot_localization/install/robot_localization/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hi'), ('OLDPWD', '/home/hi/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'lzh_TW'), ('MANAGERPID', '1444'), ('SYSTEMD_EXEC_PID', '1915'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2268'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/hi/ros2_ws/install:/home/hi/robot_localization/install:/home/hi/work_s/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hi'), ('JOURNAL_STREAM', '8:27456'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rpi4:@/tmp/.ICE-unix/1592,unix/rpi4:/tmp/.ICE-unix/1592'), ('INVOCATION_ID', '04fa6cbfaac04963a9b6acf88c6afeeb'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'lzh_TW'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'lzh_TW'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.N7TUW2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/hi/ros2_ws/install/robot_node1:/home/hi/ros2_ws/install/robot_navigation:/home/hi/ros2_ws/install/bringup:/home/hi/ros2_ws/install/robot_description:/home/hi/robot_localization/install/robot_localization:/home/hi/work_s/install/sllidar_ros2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'lzh_TW'), ('TERMINATOR_UUID', 'urn:uuid:a5d2eb06-8c45-4221-a055-5f8df9d1d555'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'lzh_TW'), ('LC_IDENTIFICATION', 'lzh_TW'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hi/ros2_ws/build/bringup'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/hi/robot_localization/install/robot_localization/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'lzh_TW'), ('LC_PAPER', 'lzh_TW'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/hi/ros2_ws/install/robot_description:/home/hi/ros2_ws/install/robot_node1:/home/hi/ros2_ws/install/robot_navigation:/home/hi/ros2_ws/install/bringup:/home/hi/robot_localization/install/robot_localization:/home/hi/work_s/install/sllidar_ros2:/opt/ros/humble')]), 'shell': False}
+[3.416685] (-) TimerEvent: {}
+[3.426304] (bringup) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.433839] (bringup) StdoutLine: {'line': b'-- Up-to-date: /home/hi/ros2_ws/install/bringup/share/bringup/launch\n'}
+[3.441958] (bringup) StdoutLine: {'line': b'-- Up-to-date: /home/hi/ros2_ws/install/bringup/share/bringup/launch/robot.launch.py\n'}
+[3.448611] (bringup) StdoutLine: {'line': b'-- Up-to-date: /home/hi/ros2_ws/install/bringup/share/bringup/launch/robot_localization.launch.py\n'}
+[3.456532] (bringup) StdoutLine: {'line': b'-- Up-to-date: /home/hi/ros2_ws/install/bringup/share/bringup/launch/rviz.launch.py\n'}
+[3.458045] (bringup) StdoutLine: {'line': b'-- Up-to-date: /home/hi/ros2_ws/install/bringup/share/bringup/launch/robot_state_publisher.launch.py\n'}
+[3.459084] (bringup) StdoutLine: {'line': b'-- Up-to-date: /home/hi/ros2_ws/install/bringup/share/bringup/param\n'}
+[3.460168] (bringup) StdoutLine: {'line': b'-- Up-to-date: /home/hi/ros2_ws/install/bringup/share/bringup/param/ekf.yaml\n'}
+[3.461605] (bringup) StdoutLine: {'line': b'-- Up-to-date: /home/hi/ros2_ws/install/bringup/share/ament_index/resource_index/package_run_dependencies/bringup\n'}
+[3.463189] (bringup) StdoutLine: {'line': b'-- Up-to-date: /home/hi/ros2_ws/install/bringup/share/ament_index/resource_index/parent_prefix_path/bringup\n'}
+[3.467236] (bringup) StdoutLine: {'line': b'-- Up-to-date: /home/hi/ros2_ws/install/bringup/share/bringup/environment/ament_prefix_path.sh\n'}
+[3.470076] (bringup) StdoutLine: {'line': b'-- Up-to-date: /home/hi/ros2_ws/install/bringup/share/bringup/environment/ament_prefix_path.dsv\n'}
+[3.472302] (bringup) StdoutLine: {'line': b'-- Up-to-date: /home/hi/ros2_ws/install/bringup/share/bringup/environment/path.sh\n'}
+[3.473988] (bringup) StdoutLine: {'line': b'-- Up-to-date: /home/hi/ros2_ws/install/bringup/share/bringup/environment/path.dsv\n'}
+[3.476958] (bringup) StdoutLine: {'line': b'-- Up-to-date: /home/hi/ros2_ws/install/bringup/share/bringup/local_setup.bash\n'}
+[3.478746] (bringup) StdoutLine: {'line': b'-- Up-to-date: /home/hi/ros2_ws/install/bringup/share/bringup/local_setup.sh\n'}
+[3.480198] (bringup) StdoutLine: {'line': b'-- Up-to-date: /home/hi/ros2_ws/install/bringup/share/bringup/local_setup.zsh\n'}
+[3.482810] (bringup) StdoutLine: {'line': b'-- Up-to-date: /home/hi/ros2_ws/install/bringup/share/bringup/local_setup.dsv\n'}
+[3.501204] (bringup) StdoutLine: {'line': b'-- Installing: /home/hi/ros2_ws/install/bringup/share/bringup/package.dsv\n'}
+[3.505718] (bringup) StdoutLine: {'line': b'-- Up-to-date: /home/hi/ros2_ws/install/bringup/share/ament_index/resource_index/packages/bringup\n'}
+[3.507171] (bringup) StdoutLine: {'line': b'-- Up-to-date: /home/hi/ros2_ws/install/bringup/share/bringup/cmake/bringupConfig.cmake\n'}
+[3.508285] (bringup) StdoutLine: {'line': b'-- Up-to-date: /home/hi/ros2_ws/install/bringup/share/bringup/cmake/bringupConfig-version.cmake\n'}
+[3.509648] (bringup) StdoutLine: {'line': b'-- Up-to-date: /home/hi/ros2_ws/install/bringup/share/bringup/package.xml\n'}
+[3.510661] (bringup) CommandEnded: {'returncode': 0}
+[3.527379] (-) TimerEvent: {}
+[3.637011] (-) TimerEvent: {}
+[3.742400] (-) TimerEvent: {}
+[3.843832] (-) TimerEvent: {}
+[3.946633] (-) TimerEvent: {}
+[4.024393] (bringup) JobEnded: {'identifier': 'bringup', 'rc': 0}
+[4.049418] (-) TimerEvent: {}
+[4.151557] (-) TimerEvent: {}
+[4.252959] (-) TimerEvent: {}
+[4.354709] (-) TimerEvent: {}
+[4.456219] (-) TimerEvent: {}
+[4.558515] (-) TimerEvent: {}
+[4.660687] (-) TimerEvent: {}
+[4.763882] (-) TimerEvent: {}
+[4.866176] (-) TimerEvent: {}
+[4.968862] (-) TimerEvent: {}
+[5.071176] (-) TimerEvent: {}
+[5.172507] (-) TimerEvent: {}
+[5.274094] (-) TimerEvent: {}
+[5.378381] (-) TimerEvent: {}
+[5.481893] (-) TimerEvent: {}
+[5.586869] (-) TimerEvent: {}
+[5.691106] (-) TimerEvent: {}
+[5.795238] (-) TimerEvent: {}
+[5.900259] (-) TimerEvent: {}
+[6.003460] (-) TimerEvent: {}
+[6.106600] (-) TimerEvent: {}
+[6.209986] (-) TimerEvent: {}
+[6.311824] (-) TimerEvent: {}
+[6.413832] (-) TimerEvent: {}
+[6.517610] (-) TimerEvent: {}
+[6.620643] (-) TimerEvent: {}
+[6.723017] (-) TimerEvent: {}
+[6.827356] (-) TimerEvent: {}
+[6.932761] (-) TimerEvent: {}
+[7.040169] (-) TimerEvent: {}
+[7.141761] (-) TimerEvent: {}
+[7.243454] (-) TimerEvent: {}
+[7.344868] (-) TimerEvent: {}
+[7.446501] (-) TimerEvent: {}
+[7.547919] (-) TimerEvent: {}
+[7.649498] (-) TimerEvent: {}
+[7.761694] (-) TimerEvent: {}
+[7.864020] (-) TimerEvent: {}
+[7.966605] (-) TimerEvent: {}
+[8.068735] (-) TimerEvent: {}
+[8.171846] (-) TimerEvent: {}
+[8.274563] (-) TimerEvent: {}
+[8.376594] (-) TimerEvent: {}
+[8.478209] (-) TimerEvent: {}
+[8.579495] (-) TimerEvent: {}
+[8.681038] (-) TimerEvent: {}
+[8.782872] (-) TimerEvent: {}
+[8.887480] (-) TimerEvent: {}
+[8.991802] (-) TimerEvent: {}
+[9.096803] (-) TimerEvent: {}
+[9.200422] (-) TimerEvent: {}
+[9.303230] (-) TimerEvent: {}
+[9.404865] (-) TimerEvent: {}
+[9.506609] (-) TimerEvent: {}
+[9.607998] (-) TimerEvent: {}
+[9.709415] (-) TimerEvent: {}
+[9.812655] (-) TimerEvent: {}
+[9.915106] (-) TimerEvent: {}
+[10.016516] (-) TimerEvent: {}
+[10.117869] (-) TimerEvent: {}
+[10.219213] (-) TimerEvent: {}
+[10.320955] (-) TimerEvent: {}
+[10.424300] (-) TimerEvent: {}
+[10.527122] (-) TimerEvent: {}
+[10.629921] (-) TimerEvent: {}
+[10.732795] (-) TimerEvent: {}
+[10.836012] (-) TimerEvent: {}
+[10.938396] (-) TimerEvent: {}
+[11.040434] (-) TimerEvent: {}
+[11.144531] (-) TimerEvent: {}
+[11.247604] (-) TimerEvent: {}
+[11.350078] (-) TimerEvent: {}
+[11.453362] (-) TimerEvent: {}
+[11.555724] (-) TimerEvent: {}
+[11.656928] (-) TimerEvent: {}
+[11.758087] (-) TimerEvent: {}
+[11.859476] (-) TimerEvent: {}
+[11.965475] (-) TimerEvent: {}
+[12.069196] (-) TimerEvent: {}
+[12.175465] (-) TimerEvent: {}
+[12.280215] (-) TimerEvent: {}
+[12.381662] (-) TimerEvent: {}
+[12.483219] (-) TimerEvent: {}
+[12.585000] (-) TimerEvent: {}
+[12.687596] (-) TimerEvent: {}
+[12.789222] (-) TimerEvent: {}
+[12.890587] (-) TimerEvent: {}
+[12.992117] (-) TimerEvent: {}
+[13.093721] (-) TimerEvent: {}
+[13.194884] (-) TimerEvent: {}
+[13.296739] (-) TimerEvent: {}
+[13.398386] (-) TimerEvent: {}
+[13.499876] (-) TimerEvent: {}
+[13.601569] (-) TimerEvent: {}
+[13.702906] (-) TimerEvent: {}
+[13.806545] (-) TimerEvent: {}
+[13.910008] (-) TimerEvent: {}
+[14.011637] (-) TimerEvent: {}
+[14.114408] (-) TimerEvent: {}
+[14.216257] (-) TimerEvent: {}
+[14.319346] (-) TimerEvent: {}
+[14.422238] (-) TimerEvent: {}
+[14.527367] (-) TimerEvent: {}
+[14.632860] (-) TimerEvent: {}
+[14.738258] (-) TimerEvent: {}
+[14.839451] (-) TimerEvent: {}
+[14.941147] (-) TimerEvent: {}
+[15.041917] (-) TimerEvent: {}
+[15.142687] (-) TimerEvent: {}
+[15.243638] (-) TimerEvent: {}
+[15.344440] (-) TimerEvent: {}
+[15.445306] (-) TimerEvent: {}
+[15.546299] (-) TimerEvent: {}
+[15.647456] (-) TimerEvent: {}
+[15.749136] (-) TimerEvent: {}
+[15.849968] (-) TimerEvent: {}
+[15.950799] (-) TimerEvent: {}
+[16.051578] (-) TimerEvent: {}
+[16.152382] (-) TimerEvent: {}
+[16.253134] (-) TimerEvent: {}
+[16.353927] (-) TimerEvent: {}
+[16.454764] (-) TimerEvent: {}
+[16.555646] (-) TimerEvent: {}
+[16.656456] (-) TimerEvent: {}
+[16.757270] (-) TimerEvent: {}
+[16.858035] (-) TimerEvent: {}
+[16.958852] (-) TimerEvent: {}
+[17.059708] (-) TimerEvent: {}
+[17.160551] (-) TimerEvent: {}
+[17.261313] (-) TimerEvent: {}
+[17.362114] (-) TimerEvent: {}
+[17.462918] (-) TimerEvent: {}
+[17.563673] (-) TimerEvent: {}
+[17.664473] (-) TimerEvent: {}
+[17.765236] (-) TimerEvent: {}
+[17.866003] (-) TimerEvent: {}
+[17.969509] (-) TimerEvent: {}
+[18.070307] (-) TimerEvent: {}
+[18.171123] (-) TimerEvent: {}
+[18.271910] (-) TimerEvent: {}
+[18.372752] (-) TimerEvent: {}
+[18.473527] (-) TimerEvent: {}
+[18.574321] (-) TimerEvent: {}
+[18.675168] (-) TimerEvent: {}
+[18.775929] (-) TimerEvent: {}
+[18.876795] (-) TimerEvent: {}
+[18.977545] (-) TimerEvent: {}
+[19.078337] (-) TimerEvent: {}
+[19.179112] (-) TimerEvent: {}
+[19.279915] (-) TimerEvent: {}
+[19.380802] (-) TimerEvent: {}
+[19.481636] (-) TimerEvent: {}
+[19.582438] (-) TimerEvent: {}
+[19.683258] (-) TimerEvent: {}
+[19.784140] (-) TimerEvent: {}
+[19.884977] (-) TimerEvent: {}
+[19.985768] (-) TimerEvent: {}
+[20.086568] (-) TimerEvent: {}
+[20.187374] (-) TimerEvent: {}
+[20.288184] (-) TimerEvent: {}
+[20.389007] (-) TimerEvent: {}
+[20.489848] (-) TimerEvent: {}
+[20.590781] (-) TimerEvent: {}
+[20.691587] (-) TimerEvent: {}
+[20.792388] (-) TimerEvent: {}
+[20.893211] (-) TimerEvent: {}
+[20.994008] (-) TimerEvent: {}
+[21.094767] (-) TimerEvent: {}
+[21.195527] (-) TimerEvent: {}
+[21.296327] (-) TimerEvent: {}
+[21.397153] (-) TimerEvent: {}
+[21.497919] (-) TimerEvent: {}
+[21.598708] (-) TimerEvent: {}
+[21.699521] (-) TimerEvent: {}
+[21.800309] (-) TimerEvent: {}
+[21.901153] (-) TimerEvent: {}
+[22.001923] (-) TimerEvent: {}
+[22.102756] (-) TimerEvent: {}
+[22.203590] (-) TimerEvent: {}
+[22.304498] (-) TimerEvent: {}
+[22.405290] (-) TimerEvent: {}
+[22.506163] (-) TimerEvent: {}
+[22.606937] (-) TimerEvent: {}
+[22.707714] (-) TimerEvent: {}
+[22.808559] (-) TimerEvent: {}
+[22.909296] (-) TimerEvent: {}
+[23.010202] (-) TimerEvent: {}
+[23.110981] (-) TimerEvent: {}
+[23.211761] (-) TimerEvent: {}
+[23.312621] (-) TimerEvent: {}
+[23.413478] (-) TimerEvent: {}
+[23.514219] (-) TimerEvent: {}
+[23.615050] (-) TimerEvent: {}
+[23.715832] (-) TimerEvent: {}
+[23.816748] (-) TimerEvent: {}
+[23.917689] (-) TimerEvent: {}
+[24.018480] (-) TimerEvent: {}
+[24.119580] (-) TimerEvent: {}
+[24.220767] (-) TimerEvent: {}
+[24.321668] (-) TimerEvent: {}
+[24.422425] (-) TimerEvent: {}
+[24.523205] (-) TimerEvent: {}
+[24.624029] (-) TimerEvent: {}
+[24.724816] (-) TimerEvent: {}
+[24.825641] (-) TimerEvent: {}
+[24.926359] (-) TimerEvent: {}
+[25.027152] (-) TimerEvent: {}
+[25.127966] (-) TimerEvent: {}
+[25.228774] (-) TimerEvent: {}
+[25.329483] (-) TimerEvent: {}
+[25.430229] (-) TimerEvent: {}
+[25.530988] (-) TimerEvent: {}
+[25.631763] (-) TimerEvent: {}
+[25.732633] (-) TimerEvent: {}
+[25.833398] (-) TimerEvent: {}
+[25.934140] (-) TimerEvent: {}
+[26.034870] (-) TimerEvent: {}
+[26.135611] (-) TimerEvent: {}
+[26.236488] (-) TimerEvent: {}
+[26.337287] (-) TimerEvent: {}
+[26.438173] (-) TimerEvent: {}
+[26.538925] (-) TimerEvent: {}
+[26.639700] (-) TimerEvent: {}
+[26.740547] (-) TimerEvent: {}
+[26.841313] (-) TimerEvent: {}
+[26.942064] (-) TimerEvent: {}
+[27.042832] (-) TimerEvent: {}
+[27.143785] (-) TimerEvent: {}
+[27.244663] (-) TimerEvent: {}
+[27.345428] (-) TimerEvent: {}
+[27.446171] (-) TimerEvent: {}
+[27.547007] (-) TimerEvent: {}
+[27.647787] (-) TimerEvent: {}
+[27.748661] (-) TimerEvent: {}
+[27.849526] (-) TimerEvent: {}
+[27.950377] (-) TimerEvent: {}
+[28.051239] (-) TimerEvent: {}
+[28.152215] (-) TimerEvent: {}
+[28.253014] (-) TimerEvent: {}
+[28.353833] (-) TimerEvent: {}
+[28.454594] (-) TimerEvent: {}
+[28.555364] (-) TimerEvent: {}
+[28.656183] (-) TimerEvent: {}
+[28.756933] (-) TimerEvent: {}
+[28.857722] (-) TimerEvent: {}
+[28.958529] (-) TimerEvent: {}
+[29.059393] (-) TimerEvent: {}
+[29.066172] (robot_node1) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable imu_node\x1b[0m\n'}
+[29.159772] (-) TimerEvent: {}
+[29.261049] (-) TimerEvent: {}
+[29.362098] (-) TimerEvent: {}
+[29.463077] (-) TimerEvent: {}
+[29.564339] (-) TimerEvent: {}
+[29.665469] (-) TimerEvent: {}
+[29.766327] (-) TimerEvent: {}
+[29.867161] (-) TimerEvent: {}
+[29.968214] (-) TimerEvent: {}
+[30.069094] (-) TimerEvent: {}
+[30.125302] (robot_node1) StdoutLine: {'line': b'[100%] Built target imu_node\n'}
+[30.167078] (robot_node1) CommandEnded: {'returncode': 0}
+[30.169459] (-) TimerEvent: {}
+[30.270093] (-) TimerEvent: {}
+[30.339882] (robot_node1) JobProgress: {'identifier': 'robot_node1', 'progress': 'install'}
+[30.341006] (robot_node1) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/hi/ros2_ws/build/robot_node1'], 'cwd': '/home/hi/ros2_ws/build/robot_node1', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'hi'), ('LC_TIME', 'lzh_TW'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/hi/robot_localization/install/robot_localization/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hi'), ('OLDPWD', '/home/hi/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'lzh_TW'), ('MANAGERPID', '1444'), ('SYSTEMD_EXEC_PID', '1915'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2268'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/hi/ros2_ws/install:/home/hi/robot_localization/install:/home/hi/work_s/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hi'), ('JOURNAL_STREAM', '8:27456'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rpi4:@/tmp/.ICE-unix/1592,unix/rpi4:/tmp/.ICE-unix/1592'), ('INVOCATION_ID', '04fa6cbfaac04963a9b6acf88c6afeeb'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'lzh_TW'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'lzh_TW'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.N7TUW2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/hi/ros2_ws/install/robot_node1:/home/hi/ros2_ws/install/robot_navigation:/home/hi/ros2_ws/install/bringup:/home/hi/ros2_ws/install/robot_description:/home/hi/robot_localization/install/robot_localization:/home/hi/work_s/install/sllidar_ros2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'lzh_TW'), ('TERMINATOR_UUID', 'urn:uuid:a5d2eb06-8c45-4221-a055-5f8df9d1d555'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'lzh_TW'), ('LC_IDENTIFICATION', 'lzh_TW'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hi/ros2_ws/build/robot_node1'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/hi/robot_localization/install/robot_localization/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'lzh_TW'), ('LC_PAPER', 'lzh_TW'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/hi/ros2_ws/install/robot_node1:/home/hi/ros2_ws/install/robot_navigation:/home/hi/ros2_ws/install/bringup:/home/hi/ros2_ws/install/robot_description:/home/hi/robot_localization/install/robot_localization:/home/hi/work_s/install/sllidar_ros2:/opt/ros/humble')]), 'shell': False}
+[30.370335] (-) TimerEvent: {}
+[30.379338] (robot_node1) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[30.380472] (robot_node1) StdoutLine: {'line': b'-- Installing: /home/hi/ros2_ws/install/robot_node1/lib/robot_node1/imu_node\n'}
+[30.391010] (robot_node1) StdoutLine: {'line': b'-- Set runtime path of "/home/hi/ros2_ws/install/robot_node1/lib/robot_node1/imu_node" to ""\n'}
+[30.391752] (robot_node1) StdoutLine: {'line': b'-- Up-to-date: /home/hi/ros2_ws/install/robot_node1/share/ament_index/resource_index/package_run_dependencies/robot_node1\n'}
+[30.392495] (robot_node1) StdoutLine: {'line': b'-- Up-to-date: /home/hi/ros2_ws/install/robot_node1/share/ament_index/resource_index/parent_prefix_path/robot_node1\n'}
+[30.393409] (robot_node1) StdoutLine: {'line': b'-- Up-to-date: /home/hi/ros2_ws/install/robot_node1/share/robot_node1/environment/ament_prefix_path.sh\n'}
+[30.394325] (robot_node1) StdoutLine: {'line': b'-- Up-to-date: /home/hi/ros2_ws/install/robot_node1/share/robot_node1/environment/ament_prefix_path.dsv\n'}
+[30.394883] (robot_node1) StdoutLine: {'line': b'-- Up-to-date: /home/hi/ros2_ws/install/robot_node1/share/robot_node1/environment/path.sh\n'}
+[30.395411] (robot_node1) StdoutLine: {'line': b'-- Up-to-date: /home/hi/ros2_ws/install/robot_node1/share/robot_node1/environment/path.dsv\n'}
+[30.396241] (robot_node1) StdoutLine: {'line': b'-- Up-to-date: /home/hi/ros2_ws/install/robot_node1/share/robot_node1/local_setup.bash\n'}
+[30.396800] (robot_node1) StdoutLine: {'line': b'-- Up-to-date: /home/hi/ros2_ws/install/robot_node1/share/robot_node1/local_setup.sh\n'}
+[30.401112] (robot_node1) StdoutLine: {'line': b'-- Up-to-date: /home/hi/ros2_ws/install/robot_node1/share/robot_node1/local_setup.zsh\n'}
+[30.401916] (robot_node1) StdoutLine: {'line': b'-- Up-to-date: /home/hi/ros2_ws/install/robot_node1/share/robot_node1/local_setup.dsv\n'}
+[30.402808] (robot_node1) StdoutLine: {'line': b'-- Installing: /home/hi/ros2_ws/install/robot_node1/share/robot_node1/package.dsv\n'}
+[30.404739] (robot_node1) StdoutLine: {'line': b'-- Up-to-date: /home/hi/ros2_ws/install/robot_node1/share/ament_index/resource_index/packages/robot_node1\n'}
+[30.405772] (robot_node1) StdoutLine: {'line': b'-- Up-to-date: /home/hi/ros2_ws/install/robot_node1/share/robot_node1/cmake/robot_node1Config.cmake\n'}
+[30.407852] (robot_node1) StdoutLine: {'line': b'-- Up-to-date: /home/hi/ros2_ws/install/robot_node1/share/robot_node1/cmake/robot_node1Config-version.cmake\n'}
+[30.409036] (robot_node1) StdoutLine: {'line': b'-- Up-to-date: /home/hi/ros2_ws/install/robot_node1/share/robot_node1/package.xml\n'}
+[30.409532] (robot_node1) CommandEnded: {'returncode': 0}
+[30.470548] (-) TimerEvent: {}
+[30.571420] (-) TimerEvent: {}
+[30.645212] (robot_node1) JobEnded: {'identifier': 'robot_node1', 'rc': 0}
+[30.648298] (-) EventReactorShutdown: {}

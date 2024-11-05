@@ -1,0 +1,27 @@
+[0.075s] Invoking command in '/home/hi/ros2_ws/build/bringup': CMAKE_PREFIX_PATH=/home/hi/ros2_ws/install/robot_description:/home/hi/ros2_ws/install/robot_node1:/home/hi/ros2_ws/install/robot_navigation:/home/hi/ros2_ws/install/bringup:/home/hi/robot_localization/install/robot_localization:/home/hi/work_s/install/sllidar_ros2:/opt/ros/humble /usr/bin/cmake --build /home/hi/ros2_ws/build/bringup -- -j4 -l4
+[0.239s] Invoked command in '/home/hi/ros2_ws/build/bringup' returned '0': CMAKE_PREFIX_PATH=/home/hi/ros2_ws/install/robot_description:/home/hi/ros2_ws/install/robot_node1:/home/hi/ros2_ws/install/robot_navigation:/home/hi/ros2_ws/install/bringup:/home/hi/robot_localization/install/robot_localization:/home/hi/work_s/install/sllidar_ros2:/opt/ros/humble /usr/bin/cmake --build /home/hi/ros2_ws/build/bringup -- -j4 -l4
+[0.407s] Invoking command in '/home/hi/ros2_ws/build/bringup': CMAKE_PREFIX_PATH=/home/hi/ros2_ws/install/robot_description:/home/hi/ros2_ws/install/robot_node1:/home/hi/ros2_ws/install/robot_navigation:/home/hi/ros2_ws/install/bringup:/home/hi/robot_localization/install/robot_localization:/home/hi/work_s/install/sllidar_ros2:/opt/ros/humble /usr/bin/cmake --install /home/hi/ros2_ws/build/bringup
+[0.441s] -- Install configuration: ""
+[0.442s] -- Up-to-date: /home/hi/ros2_ws/install/bringup/share/bringup/launch
+[0.443s] -- Up-to-date: /home/hi/ros2_ws/install/bringup/share/bringup/launch/robot.launch.py
+[0.444s] -- Installing: /home/hi/ros2_ws/install/bringup/share/bringup/launch/robot_localization.launch.py
+[0.444s] -- Up-to-date: /home/hi/ros2_ws/install/bringup/share/bringup/launch/rviz.launch.py
+[0.445s] -- Up-to-date: /home/hi/ros2_ws/install/bringup/share/bringup/launch/robot_state_publisher.launch.py
+[0.446s] -- Up-to-date: /home/hi/ros2_ws/install/bringup/share/bringup/param
+[0.446s] -- Up-to-date: /home/hi/ros2_ws/install/bringup/share/bringup/param/ekf.yaml
+[0.447s] -- Up-to-date: /home/hi/ros2_ws/install/bringup/share/ament_index/resource_index/package_run_dependencies/bringup
+[0.447s] -- Up-to-date: /home/hi/ros2_ws/install/bringup/share/ament_index/resource_index/parent_prefix_path/bringup
+[0.448s] -- Up-to-date: /home/hi/ros2_ws/install/bringup/share/bringup/environment/ament_prefix_path.sh
+[0.448s] -- Up-to-date: /home/hi/ros2_ws/install/bringup/share/bringup/environment/ament_prefix_path.dsv
+[0.449s] -- Up-to-date: /home/hi/ros2_ws/install/bringup/share/bringup/environment/path.sh
+[0.449s] -- Up-to-date: /home/hi/ros2_ws/install/bringup/share/bringup/environment/path.dsv
+[0.449s] -- Up-to-date: /home/hi/ros2_ws/install/bringup/share/bringup/local_setup.bash
+[0.450s] -- Up-to-date: /home/hi/ros2_ws/install/bringup/share/bringup/local_setup.sh
+[0.450s] -- Up-to-date: /home/hi/ros2_ws/install/bringup/share/bringup/local_setup.zsh
+[0.450s] -- Up-to-date: /home/hi/ros2_ws/install/bringup/share/bringup/local_setup.dsv
+[0.451s] -- Up-to-date: /home/hi/ros2_ws/install/bringup/share/bringup/package.dsv
+[0.451s] -- Up-to-date: /home/hi/ros2_ws/install/bringup/share/ament_index/resource_index/packages/bringup
+[0.452s] -- Up-to-date: /home/hi/ros2_ws/install/bringup/share/bringup/cmake/bringupConfig.cmake
+[0.453s] -- Up-to-date: /home/hi/ros2_ws/install/bringup/share/bringup/cmake/bringupConfig-version.cmake
+[0.453s] -- Up-to-date: /home/hi/ros2_ws/install/bringup/share/bringup/package.xml
+[0.456s] Invoked command in '/home/hi/ros2_ws/build/bringup' returned '0': CMAKE_PREFIX_PATH=/home/hi/ros2_ws/install/robot_description:/home/hi/ros2_ws/install/robot_node1:/home/hi/ros2_ws/install/robot_navigation:/home/hi/ros2_ws/install/bringup:/home/hi/robot_localization/install/robot_localization:/home/hi/work_s/install/sllidar_ros2:/opt/ros/humble /usr/bin/cmake --install /home/hi/ros2_ws/build/bringup

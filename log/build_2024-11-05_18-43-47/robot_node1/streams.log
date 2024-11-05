@@ -1,0 +1,11 @@
+[0.330s] Invoking command in '/home/hi/ros2_ws/build/robot_node1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hi/ros2_ws/build/robot_node1 -- -j4 -l4
+[0.977s] [35m[1mConsolidate compiler generated dependencies of target imu_node[0m
+[1.263s] [ 33%] [32mBuilding CXX object CMakeFiles/imu_node.dir/src/imu_node.cpp.o[0m
+[28.136s] [01m[K/home/hi/ros2_ws/src/robot_node1/src/imu_node.cpp:[m[K In member function ‘[01m[Kvoid ImuNode::publish_imu_data()[m[K’:
+[28.137s] [01m[K/home/hi/ros2_ws/src/robot_node1/src/imu_node.cpp:43:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _header_type = struct std_msgs::msg::Header_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct std_msgs::msg::Header_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kchild_frame_id[m[K’
+[28.137s]    43 |             msg.header.[01;31m[Kchild_frame_id[m[K = "imu_link";
+[28.137s]       |                        [01;31m[K^~~~~~~~~~~~~~[m[K
+[31.415s] gmake[2]: *** [CMakeFiles/imu_node.dir/build.make:76: CMakeFiles/imu_node.dir/src/imu_node.cpp.o] Error 1
+[31.416s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/imu_node.dir/all] Error 2
+[31.416s] gmake: *** [Makefile:146: all] Error 2
+[31.424s] Invoked command in '/home/hi/ros2_ws/build/robot_node1' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hi/ros2_ws/build/robot_node1 -- -j4 -l4

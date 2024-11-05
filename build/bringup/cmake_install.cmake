@@ -43,7 +43,10 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bringup" TYPE DIRECTORY FILES "/home/hi/ros2_ws/src/bringup/launch")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bringup" TYPE DIRECTORY FILES
+    "/home/hi/ros2_ws/src/bringup/launch"
+    "/home/hi/ros2_ws/src/bringup/param"
+    )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

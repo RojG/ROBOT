@@ -1,39 +1,47 @@
 import os
-import launch
 from launch import LaunchDescription
-from launch.actions import DeclareLaunchArgument
+from launch.actions import DeclareLaunchArgument, IncludeLaunchDescription
 from launch.substitutions import LaunchConfiguration
 from launch_ros.actions import Node
 from launch_ros.substitutions import FindPackageShare
-
+from launch.substitutions import PathJoinSubstitution
+from launch.launch_description_sources import PythonLaunchDescriptionSource
+from ament_index_python.packages import get_package_share_directory
 
 def generate_launch_description():
-    
-    package_name = 'bringup'
-    pkg_share = FindPackageShare(package=package_name).find(package_name) 
-    robot_localization_file_path = os.path.join(pkg_share, 'param/ekf.yaml')
-
-    use_sim_time = LaunchConfiguration('use_sim_time')
-
-    use_sim_time_arg = DeclareLaunchArgument(
-        name='use_sim_time', 
-        default_value='false', 
-        description='Flag to disable use_sim_time'
+    # Define path to custom ekf.yaml in bringup package
+    declare_param_file = DeclareLaunchArgument(
+        'param',
+        default_value=os.path.join(
+            get_package_share_directory('bringup'), 'param', 'ekf.yaml'
+        ),
+        description='Path to the YAML configuration file for the EKF'
     )
 
-    # Start robot localization using an Extended Kalman filter
-    robot_localization_node = Node(
-        package='robot_localization',
-        executable='ekf_node',
-        name='ekf_filter_node',
-        output='screen',
-        parameters=[
-            robot_localization_file_path, 
-            {'use_sim_time': use_sim_time}
-        ]
+    # Load the custom parameter file path
+    param_file = LaunchConfiguration('param')
+
+    # Start IMU node (assuming a package and executable for imu_node)
+    imu_node = Node(
+        package='robot_node1',
+        executable='imu_node',
+        name='mpu6500_node'
     )
-    
+
+    # Include ekf.launch.py from robot_localization and pass param_file
+    robot_localization_node = IncludeLaunchDescription(
+        PythonLaunchDescriptionSource([
+            PathJoinSubstitution([
+                FindPackageShare('robot_localization'),
+                'launch',
+                'ekf.launch.py'
+            ])
+        ]),
+        launch_arguments={'param': param_file}.items()
+    )
+
     return LaunchDescription([
-        use_sim_time_arg,
+        declare_param_file,
+        imu_node,
         robot_localization_node
     ])
