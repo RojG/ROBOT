@@ -73,7 +73,7 @@ def generate_launch_description():
             launch_arguments={
                 'port': usb_port_Laptop, 
                 'frame_id': 'lidar_link',
-                'scan_frequency': '5'}.items(),
+                'scan_frequency': '5.0'}.items(),
         ),
 
     ])
