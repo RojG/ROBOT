@@ -15,7 +15,7 @@ public:
             RCLCPP_ERROR(this->get_logger(), "Failed to initialize MPU6500.");
             throw std::runtime_error("Failed to initialize MPU6500.");
         }
-        imu_publisher_ = this->create_publisher<sensor_msgs::msg::Imu>("imu", 10);
+        imu_publisher_ = this->create_publisher<sensor_msgs::msg::Imu>("example/imu", 10);
         timer_ = this->create_wall_timer(
             std::chrono::milliseconds(20),
             std::bind(&ImuNode::publish_imu_data, this)
